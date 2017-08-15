@@ -1,0 +1,39 @@
+/* CSS variables */
+:root {
+	--base: #7b3eb8;
+	--spacing: 10px;
+	--blur: 10px;
+}
+
+img {
+	padding: var(--spacing);
+	background: var(--base);
+	filter: blur(var(--blur));
+}
+
+.hl {
+	color: var(--base);
+}
+
+/* misc styles */
+
+body {
+	text-align: center;
+}
+
+body {
+	background: #2c739a;
+	color: white;
+	font-family: 'helvetica', sans-serif;
+	font-weight: 100;
+	font-size: 40px;
+}
+
+.controls {
+	margin-bottom: 50px;
+}
+
+.pic {
+	width: 500px;
+	height: auto;
+}

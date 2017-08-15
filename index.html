@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Scoped CSS variables and JS</title>
+  <link href="./assets/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <h2>Update CSS variables with <span class="hl">JS</span></h2>
+
+  <div class="controls">
+    <label for="spacing">Spacing:</label>
+    <input type="range" name="spacing" min="10" max="200" value="10" data-sizing="10px" />
+
+    <label for="blur">Blur:</label>
+    <input type="range" name="blur" min="0" max="200" value "10" data-sizing="px" />
+
+    <label for="base">Base Color</label>
+    <input type="color" name="base" value="#8538d1">
+  </div>
+
+  <img class="pic" src="./assets/images/mountain.jpg" />
+  <script src="./assets/app.js"></script>
+</body>
+
+</html>
