@@ -37,3 +37,17 @@ body {
 	width: 500px;
 	height: auto;
 }
+
+footer {
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
+}
+
+a:visited {
+	color: rgb(28, 231, 216);
+}
+
+a:hover {
+	color: rgb(2, 170, 70);
+}
